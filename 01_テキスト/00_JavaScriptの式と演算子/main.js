@@ -1,5 +1,6 @@
 // TRY: 練習問題１
-
+console.log(57052 + 57054)
+console.log("114" + "106")
 // TRY: 練習問題２
 
 // TRY: 練習問題３
@@ -11,7 +12,12 @@ const isSleepy = sleepiness > 90
 
 const isNotHappyAndSleepy = !isHappy && isSleepy
 
+// const isHappyAndNotSleeepy = isHappy && !isSleepy
+
 // 以下のコメントアウトを外して確認してみましょう
-// console.log("isNotHappyAndSleepy" + "は" + true + "ですか？", isNotHappyAndSleepy)
-// console.log("isHappy", isHappy)
-// console.log("isSleepy", isSleepy)
+console.log(
+  "isNotHappyAndSleepy" + "は" + true + "ですか？",
+  isNotHappyAndSleepy,
+)
+console.log("isHappy", isHappy)
+console.log("isSleepy", isSleepy)

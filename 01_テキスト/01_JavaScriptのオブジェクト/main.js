@@ -15,12 +15,23 @@ const hikakin = {
 // TRY: 練習問題１
 // hikakin オブジェクト を真似して自分のプロフィールをオブジェクトで作ってください。
 // オブジェクトにはたくさんのプロパティを追加してください。
-
+const riku = {
+  name: "りく",
+  age: 20,
+  hobby: ["ゲーム、音楽、歌"],
+  aisatu: function () {
+    console.log("こんにちは")
+  },
+}
 // const me = { name: 'あなたのなまえ' }
-
+console.log(riku.age) // => riku.age
 // ブラウザのコンソールを開いてオブジェクトが正しく作れているか確認してみましょう👀
 
 // console.log(me)
 
 // TRY: 練習問題２
 // hikakin オブジェクトに入っている sayHello メソッドを実行してください。
+console.log(hikakin.sayHello())
+
+console.dir(document)
+console.dir(window)
