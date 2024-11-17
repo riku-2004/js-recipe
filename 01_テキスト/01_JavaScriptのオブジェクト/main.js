@@ -35,3 +35,18 @@ console.log(hikakin.sayHello())
 
 console.dir(document)
 console.dir(window)
+
+const character = {
+  name: "riku",
+  mother: { name: "eiko", age: 55 },
+  hobbies: ["ゲーム", "運動"],
+}
+console.log(character.hobbies[0])
+if (" ") {
+  console.log("a")
+}
+
+for (let n = 2; n <= 10; ) {
+  console.log(n)
+  n += 2
+}
